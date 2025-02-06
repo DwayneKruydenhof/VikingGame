@@ -15,6 +15,8 @@ public class GameWindow {
 
         jFrame.add(gamePanel);
 
+        jFrame.setLocationRelativeTo(null);
+
         //Should always be at the bottom
         jFrame.setVisible(true);
     }
